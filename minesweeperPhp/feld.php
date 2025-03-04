@@ -21,7 +21,7 @@
     <body>
         <div id="anzahlFlaggen" data-test=1></div>
         <div id="Spielfeld">
-        <?
+        <?php
             for($i = 0; $i < $hoehe; $i++){
                 for($j = 0; $j < $breite; $j++){
                     echo "<div id='{$i}_{$j}div'><img src='img/Download__1_-removebg-preview.png' id='{$i}_{$j}' class='default'></div>";
