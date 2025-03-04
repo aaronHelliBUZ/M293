@@ -8,7 +8,7 @@
         <title>Document</title>
         <link rel="stylesheet" href="./styles/stylesFeld.css?v=<? echo $time; ?>">
         <script src="scripts/script.js" defer></script>
-        <?
+        <?php
             echo("
                 <script>
                     window.addEventListener('load', function () {
