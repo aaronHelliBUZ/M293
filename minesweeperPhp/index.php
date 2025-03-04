@@ -39,7 +39,7 @@
             if($fehlerCode === 0){
                 echo "<div class='fehler'>Die Höhe/Breite muss zwischen 6 und 25 liegen</div>";
             }elseif($fehlerCode === 1){
-                echo "<div class='fehler'>Die Anzahl Bomben muss zwischen 10 % und 33.33% des Spielfelds liegen</div>";
+                echo "<div class='fehler'>Die Anzahl Bomben muss zwischen 8 % und 33.33% des Spielfelds liegen</div>";
             }
         ?>
     </body>
