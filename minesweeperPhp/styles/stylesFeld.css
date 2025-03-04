@@ -1,0 +1,63 @@
+body{
+    background-image: url("../img/wp12297046-minesweeper-wallpapers.jpg");
+}
+
+div{
+    margin: auto;
+    text-align: center;
+}
+
+#Spielfeld{
+    display: grid;
+    border: 5px black solid;
+    position: relative;
+    margin-top: 5px;
+    background-color: green;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+div > div{
+    margin: 0px;
+    position: relative;
+    display: inline-grid;
+    background-color: rgb(132, 212, 11);
+}
+
+a{
+    font-size: 40x;
+}
+
+#Titel{
+    position: relative;
+    left: 650px;
+}
+
+#Untertitel{
+    position: relative;
+    left: 610px;
+}
+
+img{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.flagged{
+    opacity: 1;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    color: black;
+    font-size: 23px;
+}
+
+#anzahlFlaggen{
+    margin-top: 90px;
+    font-size: 30px;
+}
