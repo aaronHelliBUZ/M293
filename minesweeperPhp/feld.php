@@ -1,4 +1,4 @@
-<? $time = time() ?>
+<?php $time = time() ?>
 
 <!DOCTYPE html>
 <html lang="en">
