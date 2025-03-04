@@ -1,5 +1,5 @@
-<? $time = time() ?>
-<?
+<?php $time = time() ?>
+<?php
     $hoehe = $_POST['hoehe'];
     $breite = $_POST['breite'];
     $anzahlBomben = $_POST['bomben'];
@@ -33,7 +33,7 @@
             <input type="hidden" name="submitted" value=1>
             <input id="submit" type="submit">
         </form>
-        <?
+        <?php
             $fehlerCode = $_POST['fehlerCode'];
 
             if($fehlerCode === 0){
