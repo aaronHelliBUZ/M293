@@ -61,3 +61,7 @@ p{
     margin-top: 90px;
     font-size: 30px;
 }
+
+.checked{
+    background-color: #f2bd29;
+}
